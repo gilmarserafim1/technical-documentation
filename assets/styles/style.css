@@ -61,12 +61,16 @@
 
 #main-doc section article code {
     background-color: #F7F7F7;
-    padding: .75rem 1rem;
+    margin: 0;
+    padding: .5rem;
     font-family: monospace;
     font-size: .75rem;
-    border-radius: .5rem;
     margin-left: 2rem;
     display: block;
+}
+
+#main-doc section article pre {
+    margin: 0;
 }
 
 @media screen and (max-width: 600px) {
